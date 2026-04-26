@@ -1,115 +1,83 @@
-# 📊 Revenue Dashboard (Tkinter)
+# 📊 Revenue Analytics Dashboard
 
-Interactive desktop application for analyzing and visualizing revenue data using Python.
-
-It allows users to load Excel files and instantly generate insights such as revenue distribution, top markets, and multi-month trends.
-
----
-
-## 🚀 Features
-
-* 📈 Revenue visualization (bar chart & donut chart)
-* 🌍 Market distribution analysis
-* 🏆 Top-performing markets
-* 📊 Trend reports across multiple months
-* 📂 Import data from Excel files
-* 📉 Product performance insights
-* 🔍 Market expansion & reduction tracking
+A desktop application for advanced revenue analysis and market insights, built using Python.
+The dashboard enables interactive exploration of sales data, identification of key markets, and tracking of performance trends over time.
 
 ---
 
-## 🛠️ Built With
+## 🚀 Key Features
 
-* Python
-* Tkinter (GUI)
-* Matplotlib (charts)
-* Pandas (data processing)
-* mplcursors (interactive hover info)
-
----
-
-## ▶️ How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/USERNAME/revenue-dashboard-tkinter.git
-```
-
-2. Enter the folder:
-
-```bash
-cd revenue-dashboard-tkinter
-```
-
-3. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Run the app:
-
-```bash
-python app.py
-```
-
-👉 Replace `USERNAME` with your GitHub username.
+* 📈 Interactive revenue visualization (bar & donut charts)
+* 🌍 Market segmentation and distribution analysis
+* 🏆 Identification of top-performing markets
+* 📊 Multi-period trend analysis across months
+* 📂 Excel-based data ingestion
+* 📉 Product-level performance breakdown
+* 🔍 Automated market expansion & contraction insights
+* 💡 Data-driven recommendations for revenue optimization
 
 ---
 
-## 📊 Excel Format (Data Structure)
+## 🛠️ Technology Stack
 
-Your Excel file should look like this:
+* **Python**
+* **Tkinter** — desktop GUI framework
+* **Matplotlib** — data visualization
+* **Pandas** — data processing and aggregation
+* **mplcursors** — interactive chart exploration
 
-| Date    | Country | Product | Quantity | Price | Revenue | Channels | Customer type |
-| ------- | ------- | ------- | -------- | ----- | ------- | -------- | ------------- |
-| 2024-01 | Germany | Laptop  | 12       | 850   | 10200   | Online   | B2B           |
-| 2024-01 | USA     | TV      | 8        | 1200  | 9600    | Online   | B2C           |
+---
 
-### ✅ Required columns:
+## 📊 Data Model (Excel Input)
+
+The application is designed to work with structured Excel datasets.
+
+### Required Fields:
 
 * `Country`
 * `Revenue`
 
-### ⭐ Optional (recommended for full features):
+### Extended Schema (Recommended):
 
-* `Date` (for trend reports)
-* `Product` (for product insights)
-* `Quantity`, `Price`, `Channels`, `Customer type`
-
----
-
-## 📸 Screenshots
-
-### 🏠 Main Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-### 📊 Charts & Market Overview
-
-![Charts](screenshots/charts.png)
-
-### 📈 Trend Reports
-
-![Trends](screenshots/trends.png)
+| Field         | Description                          |
+| ------------- | ------------------------------------ |
+| Date          | Time dimension for trend analysis    |
+| Product       | Enables product-level insights       |
+| Quantity      | Sales volume                         |
+| Price         | Unit price                           |
+| Revenue       | Total transaction value              |
+| Channels      | Sales channel (Online, Retail, etc.) |
+| Customer type | B2B / B2C segmentation               |
 
 ---
 
-## ⚠️ Notes
+## 🧠 Analytical Capabilities
 
-* Make sure Excel file has correct column names
-* Date column should be in proper datetime format
-* Large datasets may slow down performance
+* **Revenue Aggregation:** Consolidates data across countries and time periods
+* **Trend Detection:** Identifies growth patterns and performance shifts
+* **Top Market Analysis:** Highlights highest revenue-generating regions
+* **Product Insights:** Determines best-performing products per market
+* **Market Change Detection:** Tracks entry and exit of markets over time
+* **Recommendation Engine:** Suggests focus areas based on top-performing products
 
 ---
 
-## 📌 Future Improvements
+## ⚠️ Considerations
 
-* Export reports to PDF
-* Dark mode
-* Database integration
-* Real-time analytics
+* Input data must follow the defined schema for full functionality
+* Time-series analysis depends on properly formatted date fields
+* Performance may vary with very large datasets
+
+---
+
+## 📌 Future Enhancements
+
+* Integration with relational databases (PostgreSQL / MySQL)
+* Automated data pipeline (ETL processing)
+* Exportable analytical reports (PDF / Excel summaries)
+* Advanced forecasting (time-series models)
+* Role-based data access and multi-user support
+* API layer for integration with external systems
 
 ---
 
