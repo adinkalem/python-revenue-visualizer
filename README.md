@@ -27,68 +27,84 @@ https://drive.google.com/file/d/1wcGCVkX-VcM8mrgOdshvQ836JT_SNKcn/view?usp=shari
 
 ## 🛠️ Technology Stack
 
-* **Python**
-* **Tkinter** — desktop GUI framework
-* **Matplotlib** — data visualization
-* **Pandas** — data processing and aggregation
-* **mplcursors** — interactive chart exploration
+* Python
+* Tkinter — desktop GUI framework
+* Matplotlib — data visualization
+* Pandas — data processing and aggregation
+* mplcursors — interactive chart exploration
+
+---
+
+## 📦 Installation & Requirements
+
+pip install pandas matplotlib mplcursors
+
+Note: Tkinter comes with Python by default.  
+On Linux systems you may need:
+
+sudo apt-get install python3-tk
+
+---
+
+## 🚀 How to Run
+
+git clone https://github.com/adinkalem/python-revenue-visualizer.git  
+cd python-revenue-visualizer  
+pip install pandas matplotlib mplcursors  
+python app.py  
 
 ---
 
 ## 📊 Data Model (Excel Input)
 
-The application is designed to work with structured Excel datasets.
+Required fields:
+- Country  
+- Revenue  
 
-### Required Fields:
-
-* Country
-* Revenue
-
-### Extended Schema (Recommended):
-
-| Field         | Description                          |
-| ------------- | ------------------------------------ |
-| Date          | Time dimension for trend analysis    |
-| Product       | Enables product-level insights       |
-| Quantity      | Sales volume                         |
-| Price         | Unit price                           |
-| Revenue       | Total transaction value              |
-| Channels      | Sales channel (Online, Retail, etc.) |
-| Customer type | B2B / B2C segmentation               |
+Recommended fields:
+| Field | Description |
+|------|-------------|
+| Date | Time analysis |
+| Product | Product insights |
+| Quantity | Sales volume |
+| Price | Unit price |
+| Revenue | Total revenue |
+| Channels | Sales channel |
+| Customer type | B2B / B2C |
 
 ---
 
 ## 🧠 Analytical Capabilities
 
-* Revenue Aggregation — consolidates data across countries and time periods  
-* Trend Detection — identifies growth patterns and performance shifts  
-* Top Market Analysis — highlights highest revenue-generating regions  
-* Product Insights — determines best-performing products per market  
-* Market Change Detection — tracks entry and exit of markets over time  
-* Recommendation Engine — suggests focus areas based on top-performing products  
+* Revenue aggregation across markets  
+* Trend detection over time  
+* Top-performing market identification  
+* Product performance analysis  
+* Market entry/exit tracking  
+* Recommendation generation  
 
 ---
 
 ## ⚠️ Considerations
 
-* Input data must follow the defined schema for full functionality  
-* Time-series analysis depends on properly formatted date fields  
-* Performance may vary with very large datasets  
+* Dataset must follow required schema  
+* Date format required for trends  
+* Large datasets may slow performance  
 
 ---
 
-## 📌 Future Enhancements
+## 📌 Future Improvements
 
-* Integration with relational databases (PostgreSQL / MySQL)  
-* Automated data pipeline (ETL processing)  
-* Exportable analytical reports (PDF / Excel summaries)  
-* Advanced forecasting (time-series models)  
-* Role-based data access and multi-user support  
-* API layer for integration with external systems  
+* PostgreSQL / MySQL integration  
+* ETL automation  
+* PDF/Excel export  
+* Forecasting models  
+* Multi-user system  
+* API integration  
 
 ---
 
 ## 👤 Authors
 
 - Adin Kalem  
-- Nejla Mahmutović
+- Nejla Mahmutović  
