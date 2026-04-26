@@ -1,7 +1,14 @@
 # 📊 Revenue Analytics Dashboard
 
-A desktop application for advanced revenue analysis and market insights, built using Python.
+A desktop application for advanced revenue analysis and market insights, built using Python.  
 The dashboard enables interactive exploration of sales data, identification of key markets, and tracking of performance trends over time.
+
+---
+
+## 🎥 Demo
+
+📽️ Video demonstration of the application:  
+https://drive.google.com/file/d/1wcGCVkX-VcM8mrgOdshvQ836JT_SNKcn/view?usp=sharing
 
 ---
 
@@ -34,8 +41,8 @@ The application is designed to work with structured Excel datasets.
 
 ### Required Fields:
 
-* `Country`
-* `Revenue`
+* Country
+* Revenue
 
 ### Extended Schema (Recommended):
 
@@ -53,34 +60,35 @@ The application is designed to work with structured Excel datasets.
 
 ## 🧠 Analytical Capabilities
 
-* **Revenue Aggregation:** Consolidates data across countries and time periods
-* **Trend Detection:** Identifies growth patterns and performance shifts
-* **Top Market Analysis:** Highlights highest revenue-generating regions
-* **Product Insights:** Determines best-performing products per market
-* **Market Change Detection:** Tracks entry and exit of markets over time
-* **Recommendation Engine:** Suggests focus areas based on top-performing products
+* Revenue Aggregation — consolidates data across countries and time periods  
+* Trend Detection — identifies growth patterns and performance shifts  
+* Top Market Analysis — highlights highest revenue-generating regions  
+* Product Insights — determines best-performing products per market  
+* Market Change Detection — tracks entry and exit of markets over time  
+* Recommendation Engine — suggests focus areas based on top-performing products  
 
 ---
 
 ## ⚠️ Considerations
 
-* Input data must follow the defined schema for full functionality
-* Time-series analysis depends on properly formatted date fields
-* Performance may vary with very large datasets
+* Input data must follow the defined schema for full functionality  
+* Time-series analysis depends on properly formatted date fields  
+* Performance may vary with very large datasets  
 
 ---
 
 ## 📌 Future Enhancements
 
-* Integration with relational databases (PostgreSQL / MySQL)
-* Automated data pipeline (ETL processing)
-* Exportable analytical reports (PDF / Excel summaries)
-* Advanced forecasting (time-series models)
-* Role-based data access and multi-user support
-* API layer for integration with external systems
+* Integration with relational databases (PostgreSQL / MySQL)  
+* Automated data pipeline (ETL processing)  
+* Exportable analytical reports (PDF / Excel summaries)  
+* Advanced forecasting (time-series models)  
+* Role-based data access and multi-user support  
+* API layer for integration with external systems  
 
 ---
 
-## 👤 Author
+## 👤 Authors
 
-Adin
+- Adin Kalem  
+- Nejla Mahmutović
