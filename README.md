@@ -8,7 +8,7 @@ The dashboard enables interactive exploration of sales data, identification of k
 ## 🎥 Demo
 
 📽️ Video demonstration of the application:  
-https://drive.google.com/file/d/1wcGCVkX-VcM8mrgOdshvQ836JT_SNKcn/view?usp=sharing
+https://drive.google.com/file/d/1u4FQIJ2xI5yjB_e9-caXOs_dUQmywHHU/view?usp=sharing
 
 ---
 
